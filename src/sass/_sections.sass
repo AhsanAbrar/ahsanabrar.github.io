@@ -1,0 +1,225 @@
+// ################### Home ################### //
+#home
+  background: $light-soft
+  color: $heading-color
+  padding: 0 60px
+  +mobile
+    padding: 0 30px
+  .content
+    margin-top: -10px
+  h1
+    font-size: 100px
+    font-weight: 100
+    text-align: center
+    +mobile
+      font-size: 50px
+      line-height: 70px
+  h2
+    font-size: 50px
+    text-align: center
+    font-weight: 100
+    color: #525252
+    margin-top: 50px
+    +mobile
+      font-size: 30px
+      margin-top: 80px
+
+
+// ################### About ################### //
+#about
+  .person-img
+    border-radius: 50%
+    width: 360px
+    //height: 360px
+    border: 10px solid $color-light-soft
+    +mobile
+      width: 100%
+
+  .content
+    background: $light-soft
+    padding: 50px 50px 60px
+    max-width: 500px
+    border-radius: 5px
+    +mobile
+      padding: 80px 50px
+
+  .section-content
+    font-size: 18px
+    margin-top: 30px
+    line-height: 36px
+    font-weight: 300
+
+  .column
+    &:first-child
+      +mobile
+        padding: 0 30px
+        margin-bottom: 100px
+
+  a
+    color: #3252fd
+
+// ################### Criteria ################### //
+#criteria
+  text-align: center
+  .content
+    margin-top: 70px
+  .column
+    display: flex
+    justify-content: center
+    align-items: center
+    margin: 30px 0
+    +mobile
+      margin: 50px
+  a
+    font-size: 30px
+    font-weight: 500
+    display: block
+    span
+      font-size: 16px
+      font-weight: 400
+      color: $body-color
+    &.php
+      color: #6C7EB7
+    &.javascript
+      color: #F2D50A
+    &.laravel
+      color: #FB503B
+    &.vuejs
+      color: #41B883
+    &.html
+      color: #F16528
+    &.css
+      color: #008FD4
+    &.sass
+      color: #CF649A
+    &.bulma
+      color: #01D1B2
+    &.git
+      color: #F54D27
+    &.sublime
+      color: #263238
+    &.redis
+      color: #D92B21
+    &.orientDB
+      color: #F96730
+
+// ################### Work ################### //
+#work
+  text-align: center
+  .content
+    margin-top: 70px
+  img
+    border-radius: 5px
+    border: 10px solid $color-light-soft
+
+// ################### Help ################### //
+#help
+  text-align: center
+  .column
+    font-size: 30px
+
+// ################### Social ################### //
+#social
+  text-align: center
+  .content
+    margin-top: 70px
+  .column
+    display: flex
+    justify-content: center
+    align-items: center
+    +mobile
+      margin-bottom: 40px
+  a
+    display: flex
+    justify-content: center
+    align-items: center
+    width: 100px
+    height: 100px
+    border-radius: 50%
+    font-size: 26px
+    border: 10px solid $light-soft
+    &.facebook
+      color: white
+      background: $facebook
+      &:hover
+        background: white
+        color: $facebook
+    &.twitter
+      color: white
+      background: $twitter
+      &:hover
+        background: white
+        color: $twitter
+    &.googleplus
+      color: white
+      background: $googleplus
+      &:hover
+        background: white
+        color: $googleplus
+    &.linkedin
+      color: white
+      background: $linkedin
+      &:hover
+        background: white
+        color: $linkedin
+    &.github
+      color: white
+      background: $github
+      &:hover
+        background: white
+        color: $github
+    &.whatsapp
+      color: white
+      background: $whatsapp
+      &:hover
+        background: white
+        color: $whatsapp
+    &.skype
+      color: white
+      background: $skype
+      &:hover
+        background: white
+        color: $skype
+    &.instagram
+      color: white
+      background: $instagram
+      &:hover
+        background: white
+        color: $instagram
+    &.youtube
+      color: white
+      background: $youtube
+      &:hover
+        background: white
+        color: $youtube
+    &.gmail
+      color: white
+      background: $gmail
+      &:hover
+        background: white
+        color: $gmail
+
+// ################### Footer ################### //
+footer
+  text-align: center
+  .contact
+    background: #24292e
+    padding: 80px 20px
+    color: white
+    font-size: 40px
+    font-weight: 300
+    +mobile
+      font-size: 26px
+      line-height: 56px
+
+  .copyright
+    font-size: 14px
+    line-height: 26px
+    padding: 40px
+    +mobile
+      padding: 30px
+    //padding-top: 60px
+  a
+    &:hover
+      color: #3252fd
+      text-decoration: none
