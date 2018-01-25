@@ -11,6 +11,36 @@
 
 	<link rel="stylesheet" type="text/css" href="/dist/socicon/style.css">
 	<link rel="stylesheet" type="text/css" href="/dist/style.css">
+
+	<style type="text/css">
+		#home a, #home a:active, #home a:visited {
+			font-size: 18px;
+			font-weight: 400;
+			display: inline-block;
+			margin: auto;
+			text-align: center;
+			color: #3252fd;
+			background: transparent;
+			border: 2px solid #3252fd;
+			padding: 18px 36px;
+			border-radius: 50px;
+		}
+		#home a:hover {
+			background: #3252fd;
+			color: white;
+		}
+		#home > .content > div {
+			text-align: center;
+			margin-top: 60px;
+		}
+
+		#about a.lead {
+		    font-weight: 500;
+		}
+		#about a:hover {
+		    text-decoration: underline;
+		}
+	</style>
 </head>
 
 <body>
@@ -20,6 +50,10 @@
 			<h1>Muhammad Ahsan Abrar</h1>
 
 			<h2>Full Stack Developer</h2>
+
+			<div>
+				<a href="#social">I'm Available for Freelance</a>
+			</div>
 		</div>
 	</div>
 
@@ -52,8 +86,12 @@
 								I've been making a living as a developer since around 2006. Since then I've been lucky enough to work with some great projects.
 							</p>
 
-							<p>
+							<p class="my-20">
 								Here is a glimpse of <a href="#work">my work</a>
+							</p>
+
+							<p>
+								<a href="#social" class="lead">I'm Available for Freelance</a>
 							</p>
 						</div>
 					</div>
@@ -134,7 +172,7 @@
 	</section>
 
 
-	<section id="work" class="pt-10">
+	<section id="work" class="pt-50">
 		<div class="container">
 			<div class="section-heading">My Work</div>
 
@@ -254,13 +292,17 @@
 			iAhsanAbrar@gmail.com - - 03217973885
 		</div>
 		<div class="copyright">
-			Copyright © 2017 | Design By <a href="http://ahsanabrar.com">Muhammad Ahsan Abrar</a>
+			Copyright © 2018 | Design By <a href="http://ahsanabrar.com">Muhammad Ahsan Abrar</a>
 		</div>
 	</footer>
 
 
 
 	<script src="/dist/main.js"></script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+	<script src="/src/js/script.js"></script>
 
 
 	<!-- Start of StatCounter Code for Default Guide -->
